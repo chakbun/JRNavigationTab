@@ -1,8 +1,5 @@
 # JRNavigationTab
 
-
-
-
 ===========================
 custom a navigaiton tab with NSLayoutConstraint, first time to use NSLayoutConstraint in code. it make me crazy , i just fell autolayout in storyboard and xib indeed is great!!!
 
@@ -14,8 +11,7 @@ translatesAutoresizingMaskIntoConstraints
 JRNavigationTab 是个用在顶部切换的
 
 #效果(demo)
-
-
+![](https://github.com/chakbun/JRNavigationTab/blob/master/snapshoot.gif)
 
 #用法(how to use)
 * 初始化 JRNavTabView
