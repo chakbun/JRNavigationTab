@@ -8,8 +8,6 @@ translatesAutoresizingMaskIntoConstraints
 
 ===========================
 
-JRNavigationTab 是个用在顶部切换的
-
 #效果(demo)
 ![](https://github.com/chakbun/JRNavigationTab/blob/master/snapshoot.gif)
 
