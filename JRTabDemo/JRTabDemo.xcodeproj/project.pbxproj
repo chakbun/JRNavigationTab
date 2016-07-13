@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF3C6A951D366C6E00D5D137 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3C6A941D366C6E00D5D137 /* main.m */; };
+		DF3C6A981D366C6E00D5D137 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3C6A971D366C6E00D5D137 /* AppDelegate.m */; };
+		DF3C6A9B1D366C6E00D5D137 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3C6A9A1D366C6E00D5D137 /* ViewController.m */; };
+		DF3C6A9E1D366C6E00D5D137 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF3C6A9C1D366C6E00D5D137 /* Main.storyboard */; };
+		DF3C6AA01D366C6E00D5D137 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF3C6A9F1D366C6E00D5D137 /* Assets.xcassets */; };
+		DF3C6AA31D366C6E00D5D137 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF3C6AA11D366C6E00D5D137 /* LaunchScreen.storyboard */; };
+		DF3C6AAF1D366FAE00D5D137 /* JRNavTabItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3C6AAC1D366FAE00D5D137 /* JRNavTabItem.m */; };
+		DF3C6AB01D366FAE00D5D137 /* JRNavTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3C6AAE1D366FAE00D5D137 /* JRNavTabView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF3C6A901D366C6C00D5D137 /* JRTabDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JRTabDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF3C6A941D366C6E00D5D137 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF3C6A961D366C6E00D5D137 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF3C6A971D366C6E00D5D137 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF3C6A991D366C6E00D5D137 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DF3C6A9A1D366C6E00D5D137 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DF3C6A9D1D366C6E00D5D137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF3C6A9F1D366C6E00D5D137 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF3C6AA21D366C6E00D5D137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF3C6AA41D366C6E00D5D137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF3C6AAB1D366FAE00D5D137 /* JRNavTabItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRNavTabItem.h; sourceTree = "<group>"; };
+		DF3C6AAC1D366FAE00D5D137 /* JRNavTabItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRNavTabItem.m; sourceTree = "<group>"; };
+		DF3C6AAD1D366FAE00D5D137 /* JRNavTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRNavTabView.h; sourceTree = "<group>"; };
+		DF3C6AAE1D366FAE00D5D137 /* JRNavTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRNavTabView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF3C6A8D1D366C6C00D5D137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF3C6A871D366C6C00D5D137 = {
+			isa = PBXGroup;
+			children = (
+				DF3C6AAA1D366FAE00D5D137 /* JRTab */,
+				DF3C6A921D366C6E00D5D137 /* JRTabDemo */,
+				DF3C6A911D366C6C00D5D137 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF3C6A911D366C6C00D5D137 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF3C6A901D366C6C00D5D137 /* JRTabDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF3C6A921D366C6E00D5D137 /* JRTabDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DF3C6A961D366C6E00D5D137 /* AppDelegate.h */,
+				DF3C6A971D366C6E00D5D137 /* AppDelegate.m */,
+				DF3C6A991D366C6E00D5D137 /* ViewController.h */,
+				DF3C6A9A1D366C6E00D5D137 /* ViewController.m */,
+				DF3C6A9C1D366C6E00D5D137 /* Main.storyboard */,
+				DF3C6A9F1D366C6E00D5D137 /* Assets.xcassets */,
+				DF3C6AA11D366C6E00D5D137 /* LaunchScreen.storyboard */,
+				DF3C6AA41D366C6E00D5D137 /* Info.plist */,
+				DF3C6A931D366C6E00D5D137 /* Supporting Files */,
+			);
+			path = JRTabDemo;
+			sourceTree = "<group>";
+		};
+		DF3C6A931D366C6E00D5D137 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF3C6A941D366C6E00D5D137 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF3C6AAA1D366FAE00D5D137 /* JRTab */ = {
+			isa = PBXGroup;
+			children = (
+				DF3C6AAB1D366FAE00D5D137 /* JRNavTabItem.h */,
+				DF3C6AAC1D366FAE00D5D137 /* JRNavTabItem.m */,
+				DF3C6AAD1D366FAE00D5D137 /* JRNavTabView.h */,
+				DF3C6AAE1D366FAE00D5D137 /* JRNavTabView.m */,
+			);
+			path = JRTab;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF3C6A8F1D366C6C00D5D137 /* JRTabDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF3C6AA71D366C6E00D5D137 /* Build configuration list for PBXNativeTarget "JRTabDemo" */;
+			buildPhases = (
+				DF3C6A8C1D366C6C00D5D137 /* Sources */,
+				DF3C6A8D1D366C6C00D5D137 /* Frameworks */,
+				DF3C6A8E1D366C6C00D5D137 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JRTabDemo;
+			productName = JRTabDemo;
+			productReference = DF3C6A901D366C6C00D5D137 /* JRTabDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF3C6A881D366C6C00D5D137 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = chakbun;
+				TargetAttributes = {
+					DF3C6A8F1D366C6C00D5D137 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = DF3C6A8B1D366C6C00D5D137 /* Build configuration list for PBXProject "JRTabDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF3C6A871D366C6C00D5D137;
+			productRefGroup = DF3C6A911D366C6C00D5D137 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF3C6A8F1D366C6C00D5D137 /* JRTabDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF3C6A8E1D366C6C00D5D137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3C6AA31D366C6E00D5D137 /* LaunchScreen.storyboard in Resources */,
+				DF3C6AA01D366C6E00D5D137 /* Assets.xcassets in Resources */,
+				DF3C6A9E1D366C6E00D5D137 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF3C6A8C1D366C6C00D5D137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3C6AAF1D366FAE00D5D137 /* JRNavTabItem.m in Sources */,
+				DF3C6A9B1D366C6E00D5D137 /* ViewController.m in Sources */,
+				DF3C6AB01D366FAE00D5D137 /* JRNavTabView.m in Sources */,
+				DF3C6A981D366C6E00D5D137 /* AppDelegate.m in Sources */,
+				DF3C6A951D366C6E00D5D137 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF3C6A9C1D366C6E00D5D137 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF3C6A9D1D366C6E00D5D137 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF3C6AA11D366C6E00D5D137 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF3C6AA21D366C6E00D5D137 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF3C6AA51D366C6E00D5D137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF3C6AA61D366C6E00D5D137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF3C6AA81D366C6E00D5D137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JRTabDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chakbun.JRTabDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF3C6AA91D366C6E00D5D137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JRTabDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chakbun.JRTabDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF3C6A8B1D366C6C00D5D137 /* Build configuration list for PBXProject "JRTabDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF3C6AA51D366C6E00D5D137 /* Debug */,
+				DF3C6AA61D366C6E00D5D137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF3C6AA71D366C6E00D5D137 /* Build configuration list for PBXNativeTarget "JRTabDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF3C6AA81D366C6E00D5D137 /* Debug */,
+				DF3C6AA91D366C6E00D5D137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF3C6A881D366C6C00D5D137 /* Project object */;
+}
